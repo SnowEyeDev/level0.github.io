@@ -45,7 +45,7 @@ jobs:
       - name: Check dir contents
         run: ls ; ls -la ; ls -la .output ; ls -la .output/public
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v1.0.6
         with:
           # Upload output folder
           path: "dist/"
