@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: Poppins Medium;
+        src: url("~/assets/fonts/Poppins-Medium.ttf") format("truetype");
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: JetBrainsMono Regular;
+        src: url("~/assets/fonts/JetBrainsMono-Regular.ttf") format("truetype");
+        font-weight: 400;
+    }
+}
