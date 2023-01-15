@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col h-[100svh]">
-    <HomeSection></HomeSection>
+    <NavBar />
+    <NuxtPage />
   </div>
-
 </template>
